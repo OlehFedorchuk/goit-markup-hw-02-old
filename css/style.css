@@ -40,6 +40,11 @@ body {
     color: #2E2F42;
 }
 
+.header-list-link:hover,
+.header-list-link:focus {
+    color: #404BBF;
+}
+
 /* -----finish nav-------------------------- */
 
 .address-tel {
@@ -59,3 +64,98 @@ body {
 }
 
 /* ----------finish header-------------------- */
+/* Section Hero */
+.section-hero,
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    background: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* border-radius: 4px; */
+}
+
+/* ------------finish hero----------------- */
+/* Features */
+.features-list {
+    padding: 0;
+}
+
+.features-subtitle {
+    font-weight: 500;
+}
+
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+/* --------finish features------- */
+/* Our works ???*/
+.doing-list,
+.team-list,
+.features-list {
+    list-style-type: none;
+}
+
+.doing-title,
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+/*-------finish our works */
+/* Team */
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-name-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* -------finish team---- */
+/* Footer */
+.footer,
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
