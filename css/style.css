@@ -16,7 +16,6 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -29,7 +28,6 @@ body {
 /*----------------Navigation----------------*/
 
 .header-list {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -55,7 +53,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     letter-spacing: 0.02em;
     color: var(--text-color);
     text-decoration: none;
@@ -72,7 +69,6 @@ body {
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -97,7 +93,6 @@ body {
 
 .hero-text {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -115,7 +110,6 @@ body {
 }
 
 .features-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -146,7 +140,6 @@ body {
 }
 
 .team-name-descr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -160,9 +153,6 @@ body {
 }
 
 .footer-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -204,7 +194,6 @@ body {
 
 /*---------------Gallery--------------- */
 .gallery-title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
