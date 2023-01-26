@@ -10,7 +10,7 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -81,15 +81,30 @@ body {
 
 .hero-button {
     background: #4D5AE5;
-    font-family: 'Roboto';
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+
+}
+
+.address-tel:hover,
+.address-tel:focus {
+    color: #404BBF;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #404BBF;
+    cursor: pointer;
+}
+
+.hero-text {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    /* border-radius: 4px; */
 }
 
 /* ------------finish hero----------------- */
@@ -151,7 +166,7 @@ body {
 }
 
 .footer-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -159,3 +174,55 @@ body {
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
+
+/* Portfolio page */
+/* ---------------Button--------------- */
+.btn-list,
+.gallery-list {
+    list-style-type: none;
+}
+
+.btn-items:hover,
+.btn-items:focus {
+    background: #404BBF;
+    cursor: pointer;
+}
+
+.btn-text:hover,
+.btn-text:focus {
+    color: #FFFFFF;
+}
+
+.btn-items {
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.btn-text {
+    color: #4D5AE5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+/* -------------finish buton-------------- */
+/* Gallery */
+.gallery-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.gallery-text {
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* --------finish gallery */
