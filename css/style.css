@@ -1,10 +1,15 @@
-body {
-    /* font-family: 'Raleway', sans-serif; */
-    font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+:root {
+    --main-page-color: #2E2F42;
+    --text-color: #434455;
+    --remove-marker-list: none;
 }
 
-/* Logo is Done. */
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*---------------Logo---------------*/
 .accent {
     color: #4D5AE5;
 }
@@ -18,12 +23,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--main-page-color);
 }
 
-/* -------------------------------------- */
-/* Header is Done */
-/* Navigation  is Done*/
+/*----------------Navigation----------------*/
 
 .header-list {
     font-style: normal;
@@ -31,13 +34,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
-    /* text-decoration: none; */
-    list-style-type: none;
+    list-style-type: var(--remove-marker-list)
 }
 
 .header-list-link {
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--main-page-color);
 }
 
 .header-list-link:hover,
@@ -45,7 +47,7 @@ body {
     color: #404BBF;
 }
 
-/* -----finish nav-------------------------- */
+/* ---------------Address---------------*/
 
 .address-tel {
     list-style: none;
@@ -55,20 +57,18 @@ body {
     line-height: 1.5;
     /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .address-list {
-    list-style-type: none;
+    list-style-type: var(--remove-marker-list)
 }
 
-/* ----------finish header-------------------- */
-/* Section Hero */
+/*----------------Section Hero---------------*/
 .section-hero,
-
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--main-page-color);
 }
 
 .hero-title {
@@ -80,10 +80,8 @@ body {
 }
 
 .hero-button {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-
 }
 
 .address-tel:hover,
@@ -93,7 +91,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    background: #404BBF;
+    background-color: #404BBF;
     cursor: pointer;
 }
 
@@ -107,8 +105,7 @@ body {
     color: #FFFFFF;
 }
 
-/* ------------finish hero----------------- */
-/* Features */
+/*---------------Features--------------- */
 .features-list {
     padding: 0;
 }
@@ -122,16 +119,15 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 
 }
 
-/* --------finish features------- */
-/* Our works ???*/
+/*---------------Our works---------------*/
 .doing-list,
 .team-list,
 .features-list {
-    list-style-type: none;
+    list-style-type: var(--remove-marker-list)
 }
 
 .doing-title,
@@ -141,8 +137,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-/*-------finish our works */
-/* Team */
+/*---------------Team--------------- */
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -155,11 +150,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
-/* -------finish team---- */
-/* Footer */
+/*---------------Footer--------------- */
 .footer,
 .logo-footer {
     color: #FFFFFF;
@@ -175,16 +169,16 @@ body {
     color: #E7E9FC;
 }
 
-/* Portfolio page */
-/* ---------------Button--------------- */
+/*---------------Portfolio page--------------- */
+/*---------------Button---------------*/
 .btn-list,
 .gallery-list {
-    list-style-type: none;
+    list-style-type: var(--remove-marker-list)
 }
 
 .btn-items:hover,
 .btn-items:focus {
-    background: #404BBF;
+    background-color: #404BBF;
     cursor: pointer;
 }
 
@@ -194,7 +188,7 @@ body {
 }
 
 .btn-items {
-    background: #F4F4FD;
+    background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
@@ -208,8 +202,7 @@ body {
     letter-spacing: 0.04em;
 }
 
-/* -------------finish buton-------------- */
-/* Gallery */
+/*---------------Gallery--------------- */
 .gallery-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -222,7 +215,5 @@ body {
     font-size: 16px;
     line-height: 1.5px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
-
-/* --------finish gallery */
